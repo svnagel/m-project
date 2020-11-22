@@ -6,7 +6,7 @@ int opt = 0;
 
 opterr = 0;
 
-while ((opt = getopt(argc, argv, "h:")) != -1) #while there are remaining options
+while ((opt = getopt(argc, argv, "h:")) != -1) //while there are remaining options
 switch (opt)      
 {
   case 'h':
